@@ -1,0 +1,57 @@
+* {
+    font-family: Arial;
+}
+body {
+    margin: 0 auto;
+    background: url(img/atl.png) no-repeat center top fixed;
+    background-size: contain;
+}
+.header {
+    color: white;
+    text-align: right;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+.header > h4{
+    color: white;
+    padding: 60px;
+    cursor: pointer;
+}
+.title {
+    text-align: center;
+}
+.title > h1 {
+    color: white;
+    font-size: 65px;
+}
+.title > h3 {
+    color:rgb(185, 185, 185)
+}
+.main {
+    background-color: rgb(238, 238, 238);
+    margin: 0 auto;
+    text-align: center; 
+    color: rgb(43, 42, 42)
+}
+.main > img{
+    padding-top: 30px;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+}
+.footer {
+    background-color: rgb(36, 35, 35);
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: grey;
+}
+.footer > h4 {
+    cursor: pointer;
+}
+.footer > h5 {
+    color: grey;
+    opacity: 60%;
+}
