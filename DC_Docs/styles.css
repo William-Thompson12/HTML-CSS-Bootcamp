@@ -1,0 +1,71 @@
+.navigationBox {
+    float: left;
+    display: block;
+    height: 100%;
+    width: 17%;
+    background-color: rgb(53, 52, 52);
+    color: rgb(201, 200, 200);
+    margin: auto 0;
+}
+.navigationBox > h3 {
+    margin: 10px;
+    padding: 10px 10px 10px 20px;
+    font-size: 20px;
+}
+.navigationBox > img {
+    margin: 0px;
+    padding: 0px;
+}
+.navigationBox > h4 {
+    margin: 0px;
+    padding: 0px;
+}
+#navTitle {
+    text-align: center;
+    padding-top: 30px;
+    font-size: 20px;
+}
+#copyRight {
+    margin-top: 370px;
+    text-align: center;
+    padding-bottom: 30px;
+}
+#searchBar {
+    margin: 10px 10px 10px 30px;
+    background-color: rgb(53, 52, 52);
+    border: 1px solid white;
+    padding: 3px;
+    width: 170px;
+}
+.header > h4{
+    color: rgb(148, 148, 148);
+}
+.header > h1{
+    font-size: 40px;
+    font-family: 'Arial Narrow';
+}
+.header {
+    display: block;
+    width: 82%;
+    float: right;
+    text-align: left;
+    margin: auto 0;
+}
+.bodyText {
+    display: block;
+    float: right;
+    text-align: left;
+    width: 82%;
+    font-size: large;
+    margin: auto 0;
+}
+.bodyText > h4 {
+    text-align: left;
+    font-size: medium;
+    margin: 35px 0px 15px 0px;
+}
+.bodyText > img {
+    width: 100%;
+    height: auto;
+    margin: 30px 0px 30px 0px
+}
