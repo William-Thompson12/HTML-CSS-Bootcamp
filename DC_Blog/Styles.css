@@ -16,18 +16,21 @@ body {
     text-align: center;
 }
 .header {
-    display: block;
-    float: left;
-    width: 50%;
-    height: 20%;
-    text-align: right;
+    display: inline;
+    width: 100vw;
+    height: 20vh;
 }
-.headerBottons {
-    display: block;
-    width: 50%;
-    height: 20%;
+.dcLogo {
+    display: inline-block;
+
+}
+.headerButtons > a{
     text-align: right;
-    margin: 0px 10% 0px 0px;
+    color:rgb(99, 95, 95);
+    cursor: pointer;
+    font-family: sans-serif; 
+    opacity: 80%;
+    margin: 0px 0px 0px 0px; 
 }
 .header > h1 {
     color:rgb(15, 15, 15);
